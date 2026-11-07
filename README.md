@@ -3,6 +3,12 @@
 A set of scripts to capture geocoded tweets and order them by 
 the emojis they use.
 
+Run the generated visualization locally with:
+
+```bash
+uvx douwe geo_tweets
+```
+
 Start by running `harvest.py` - it will listen to the twitter
 firehose 1% stream for geocoded tweets and dump them into
 a `.twitter_cache` file. Chances are that by the time you
